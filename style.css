@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15% auto;
+    max-width: 150px;
+
+}
+
+.card {
+    background-color: hsl(213, 19%, 18%);
+    padding: 2em;
+    border-radius: 20px;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.circle {
+    border: 1px solid hsl(212, 12%, 24%);
+    border-radius: 50%;
+    padding: 1em 1.5em;
+    color: inherit;
+    background-color: hsl(212, 12%, 24%);
+
+}
+
+.circle:hover {
+    background-color: hsl(217, 12%, 63%);
+}
+
+.circle:focus {
+    background-color: hsl(25, 97%, 53%);
+}
+
+
+.star {
+    background-color: hsl(212, 12%, 24%);
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 17px;
+    height: 18px;
+}
+
+.submit {
+    background-color: hsl(25, 97%, 53%);
+    color: inherit;
+    padding: 1em 10em;
+    border-radius: 20px;
+    margin: 2rem 1em 0em 0rem;
+    font-family: inherit;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .container {
+        margin: 15% auto;
+        max-width: 300px;
+    }
+}
+
+.postSubmit {
+    text-align: center;
+    font-family: inherit;
+    display: none;
+}
+
+.postSubmit img {
+    width: 100%;
+    height: auto;
+}
+
+.highlighted {
+    background-color: hsl(212, 12%, 24%);
+    color: hsl(25, 97%, 53%);
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 20px;
+
+}
+
+.postSubmit p {
+    color: hsl(217, 12%, 63%);
+}
+
+.show {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}

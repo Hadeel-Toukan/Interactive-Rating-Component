@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <meta
+      name="description"
+      content="Frontend-Mentor Interactive rating component made by HTML , CSS and jquery"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js
+"></script>
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Rating state start -->
+    <div class="container">
+      <div class="card">
+        <div class="question">
+          <div class="star">
+            <img src="./images/icon-star.svg" alt="star" />
+          </div>
+          <div class="text">
+            <h2>How did we do?</h2>
+            <p>
+              Please let us know how we did with your support request.All
+              feedback is appreciated to help us improve our offering!
+            </p>
+          </div>
+          <div class="rating">
+            <li><button class="circle" value="1">1</button></li>
+            <li><button class="circle" value="2">2</button></li>
+            <li><button class="circle" value="3">3</button></li>
+            <li><button class="circle" value="4">4</button></li>
+            <li><button class="circle" value="5">5</button></li>
+          </div>
+          <div>
+            <!-- <button class="submit" value="5">Submit</button> -->
+            <input class="submit" type="button" value="Submit" />
+          </div>
+        </div>
+        <div class="postSubmit">
+          <div class="illustration">
+            <img src="images/illustration-thank-you.svg" alt="" />
+          </div>
+          <div class="highlighted">You selected</div>
+          <div class="text">
+            <h2>Thank you!</h2>
+            <p>
+              We appreciate you taking the time to give a rating. If you ever
+              need more support, don’t hesitate to get in touch!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+  How did we do?
+
+  Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!
+
+  1 2 3 4 5
+
+  Submit -->
+
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+
+    <!-- You selected -->
+    <!-- Add rating here -->
+    <!-- out of 5 Thank you! We appreciate you taking the time to give a rating. If
+    you ever need more support, don’t hesitate to get in touch! -->
+
+    <!-- Thank you state end -->
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
